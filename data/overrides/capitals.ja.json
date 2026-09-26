@@ -1,0 +1,1226 @@
+{
+ "_note": "独立国の首都。名称は帝国書院「統計資料 世界の国々」の表記（日本の教科書・地図帳の表記）に合わせた。en はNatural Earth 1:50m populated places の NAME で、座標はそこから取る。lat/lng がある項目は1:50mに首都として載っていない都市で、座標を直接持つ。",
+ "_sources": {
+  "names": "帝国書院 統計資料 https://www.teikokushoin.co.jp/statistics/country/ （各国ページの「首都」、2026-09-26取得）",
+  "KAZ": "帝国書院のページは旧称「ヌルスルタン」のまま。2022年9月に首都名はアスタナに戻った（ジェトロ ビジネス短信 https://www.jetro.go.jp/biznews/2022/09/bf50694c6904afc5.html ）。Natural Earth v5.1.2 の英語名も旧称のため en は Nur-Sultan のまま",
+  "TZA": "ドドマの扱い：帝国書院 FAQ https://www.teikokushoin.co.jp/high/faq/detail/137/",
+  "ISR": "注記：ジェトロ「イスラエル 概況・基本統計」 https://www.jetro.go.jp/world/middle_east/il/basic_01.html",
+  "coordinates": "lat/lng を持つ項目：Natural Earth v5.1.2 ne_10m_populated_places_simple。NRU（ヤレン）のみ Wikidata Q31026"
+ },
+ "capitals": {
+  "AFG": [
+   {
+    "ja": "カブール",
+    "en": "Kabul"
+   }
+  ],
+  "AGO": [
+   {
+    "ja": "ルアンダ",
+    "en": "Luanda"
+   }
+  ],
+  "ALB": [
+   {
+    "ja": "ティラナ",
+    "en": "Tirana"
+   }
+  ],
+  "AND": [
+   {
+    "ja": "アンドララベリャ",
+    "en": "Andorra"
+   }
+  ],
+  "ARE": [
+   {
+    "ja": "アブダビ",
+    "en": "Abu Dhabi"
+   }
+  ],
+  "ARG": [
+   {
+    "ja": "ブエノスアイレス",
+    "en": "Buenos Aires"
+   }
+  ],
+  "ARM": [
+   {
+    "ja": "エレバン",
+    "en": "Yerevan"
+   }
+  ],
+  "ATG": [
+   {
+    "ja": "セントジョンズ",
+    "en": "Saint John's"
+   }
+  ],
+  "AUS": [
+   {
+    "ja": "キャンベラ",
+    "en": "Canberra"
+   }
+  ],
+  "AUT": [
+   {
+    "ja": "ウィーン",
+    "en": "Vienna"
+   }
+  ],
+  "AZE": [
+   {
+    "ja": "バクー",
+    "en": "Baku"
+   }
+  ],
+  "BDI": [
+   {
+    "ja": "ブジュンブラ",
+    "en": "Bujumbura"
+   }
+  ],
+  "BEL": [
+   {
+    "ja": "ブリュッセル",
+    "en": "Brussels"
+   }
+  ],
+  "BEN": [
+   {
+    "ja": "ポルトノボ",
+    "en": "Porto-Novo",
+    "lat": 6.483,
+    "lng": 2.617
+   }
+  ],
+  "BFA": [
+   {
+    "ja": "ワガドゥグー",
+    "en": "Ouagadougou"
+   }
+  ],
+  "BGD": [
+   {
+    "ja": "ダッカ",
+    "en": "Dhaka"
+   }
+  ],
+  "BGR": [
+   {
+    "ja": "ソフィア",
+    "en": "Sofia"
+   }
+  ],
+  "BHR": [
+   {
+    "ja": "マナーマ",
+    "en": "Manama"
+   }
+  ],
+  "BHS": [
+   {
+    "ja": "ナッソー",
+    "en": "Nassau"
+   }
+  ],
+  "BIH": [
+   {
+    "ja": "サラエボ",
+    "en": "Sarajevo"
+   }
+  ],
+  "BLR": [
+   {
+    "ja": "ミンスク",
+    "en": "Minsk"
+   }
+  ],
+  "BLZ": [
+   {
+    "ja": "ベルモパン",
+    "en": "Belmopan"
+   }
+  ],
+  "BOL": [
+   {
+    "ja": "ラパス",
+    "en": "La Paz"
+   }
+  ],
+  "BRA": [
+   {
+    "ja": "ブラジリア",
+    "en": "Brasília"
+   }
+  ],
+  "BRB": [
+   {
+    "ja": "ブリッジタウン",
+    "en": "Bridgetown"
+   }
+  ],
+  "BRN": [
+   {
+    "ja": "バンダルスリブガワン",
+    "en": "Bandar Seri Begawan"
+   }
+  ],
+  "BTN": [
+   {
+    "ja": "ティンプー",
+    "en": "Thimphu"
+   }
+  ],
+  "BWA": [
+   {
+    "ja": "ハボローネ",
+    "en": "Gaborone"
+   }
+  ],
+  "CAF": [
+   {
+    "ja": "バンギ",
+    "en": "Bangui"
+   }
+  ],
+  "CAN": [
+   {
+    "ja": "オタワ",
+    "en": "Ottawa"
+   }
+  ],
+  "CHE": [
+   {
+    "ja": "ベルン",
+    "en": "Bern"
+   }
+  ],
+  "CHL": [
+   {
+    "ja": "サンティアゴ",
+    "en": "Santiago"
+   }
+  ],
+  "CHN": [
+   {
+    "ja": "ペキン",
+    "en": "Beijing"
+   }
+  ],
+  "CIV": [
+   {
+    "ja": "ヤムスクロ",
+    "en": "Yamoussoukro"
+   }
+  ],
+  "CMR": [
+   {
+    "ja": "ヤウンデ",
+    "en": "Yaoundé"
+   }
+  ],
+  "COD": [
+   {
+    "ja": "キンシャサ",
+    "en": "Kinshasa"
+   }
+  ],
+  "COG": [
+   {
+    "ja": "ブラザビル",
+    "en": "Brazzaville"
+   }
+  ],
+  "COK": [
+   {
+    "ja": "アバルア",
+    "en": "Avarua",
+    "lat": -21.196,
+    "lng": -159.785
+   }
+  ],
+  "COL": [
+   {
+    "ja": "ボゴタ",
+    "en": "Bogota"
+   }
+  ],
+  "COM": [
+   {
+    "ja": "モロニ",
+    "en": "Moroni"
+   }
+  ],
+  "CPV": [
+   {
+    "ja": "プライア",
+    "en": "Praia"
+   }
+  ],
+  "CRI": [
+   {
+    "ja": "サンホセ",
+    "en": "San José"
+   }
+  ],
+  "CUB": [
+   {
+    "ja": "ハバナ",
+    "en": "Havana"
+   }
+  ],
+  "CYP": [
+   {
+    "ja": "ニコシア",
+    "en": "Nicosia"
+   }
+  ],
+  "CZE": [
+   {
+    "ja": "プラハ",
+    "en": "Prague"
+   }
+  ],
+  "DEU": [
+   {
+    "ja": "ベルリン",
+    "en": "Berlin"
+   }
+  ],
+  "DJI": [
+   {
+    "ja": "ジブチ",
+    "en": "Djibouti"
+   }
+  ],
+  "DMA": [
+   {
+    "ja": "ロゾー",
+    "en": "Roseau"
+   }
+  ],
+  "DNK": [
+   {
+    "ja": "コペンハーゲン",
+    "en": "København"
+   }
+  ],
+  "DOM": [
+   {
+    "ja": "サントドミンゴ",
+    "en": "Santo Domingo"
+   }
+  ],
+  "DZA": [
+   {
+    "ja": "アルジェ",
+    "en": "Algiers"
+   }
+  ],
+  "ECU": [
+   {
+    "ja": "キト",
+    "en": "Quito"
+   }
+  ],
+  "EGY": [
+   {
+    "ja": "カイロ",
+    "en": "Cairo"
+   }
+  ],
+  "ERI": [
+   {
+    "ja": "アスマラ",
+    "en": "Asmara"
+   }
+  ],
+  "ESP": [
+   {
+    "ja": "マドリード",
+    "en": "Madrid"
+   }
+  ],
+  "EST": [
+   {
+    "ja": "タリン",
+    "en": "Tallinn"
+   }
+  ],
+  "ETH": [
+   {
+    "ja": "アディスアベバ",
+    "en": "Addis Ababa"
+   }
+  ],
+  "FIN": [
+   {
+    "ja": "ヘルシンキ",
+    "en": "Helsinki"
+   }
+  ],
+  "FJI": [
+   {
+    "ja": "スバ",
+    "en": "Suva"
+   }
+  ],
+  "FRA": [
+   {
+    "ja": "パリ",
+    "en": "Paris"
+   }
+  ],
+  "FSM": [
+   {
+    "ja": "パリキール",
+    "en": "Palikir"
+   }
+  ],
+  "GAB": [
+   {
+    "ja": "リーブルビル",
+    "en": "Libreville"
+   }
+  ],
+  "GBR": [
+   {
+    "ja": "ロンドン",
+    "en": "London"
+   }
+  ],
+  "GEO": [
+   {
+    "ja": "トビリシ",
+    "en": "Tbilisi"
+   }
+  ],
+  "GHA": [
+   {
+    "ja": "アクラ",
+    "en": "Accra"
+   }
+  ],
+  "GIN": [
+   {
+    "ja": "コナクリ",
+    "en": "Conakry"
+   }
+  ],
+  "GMB": [
+   {
+    "ja": "バンジュール",
+    "en": "Banjul"
+   }
+  ],
+  "GNB": [
+   {
+    "ja": "ビサウ",
+    "en": "Bissau"
+   }
+  ],
+  "GNQ": [
+   {
+    "ja": "マラボ",
+    "en": "Malabo"
+   }
+  ],
+  "GRC": [
+   {
+    "ja": "アテネ",
+    "en": "Athens"
+   }
+  ],
+  "GRD": [
+   {
+    "ja": "セントジョージズ",
+    "en": "Saint George's"
+   }
+  ],
+  "GTM": [
+   {
+    "ja": "グアテマラシティ",
+    "en": "Guatemala City"
+   }
+  ],
+  "GUY": [
+   {
+    "ja": "ジョージタウン",
+    "en": "Georgetown"
+   }
+  ],
+  "HND": [
+   {
+    "ja": "テグシガルパ",
+    "en": "Tegucigalpa"
+   }
+  ],
+  "HRV": [
+   {
+    "ja": "ザグレブ",
+    "en": "Zagreb"
+   }
+  ],
+  "HTI": [
+   {
+    "ja": "ポルトープランス",
+    "en": "Port-au-Prince"
+   }
+  ],
+  "HUN": [
+   {
+    "ja": "ブダペスト",
+    "en": "Budapest"
+   }
+  ],
+  "IDN": [
+   {
+    "ja": "ジャカルタ",
+    "en": "Jakarta"
+   }
+  ],
+  "IND": [
+   {
+    "ja": "デリー",
+    "en": "New Delhi"
+   }
+  ],
+  "IRL": [
+   {
+    "ja": "ダブリン",
+    "en": "Dublin"
+   }
+  ],
+  "IRN": [
+   {
+    "ja": "テヘラン",
+    "en": "Tehran"
+   }
+  ],
+  "IRQ": [
+   {
+    "ja": "バグダッド",
+    "en": "Baghdad"
+   }
+  ],
+  "ISL": [
+   {
+    "ja": "レイキャビク",
+    "en": "Reykjavík"
+   }
+  ],
+  "ISR": [
+   {
+    "ja": "エルサレム",
+    "en": "Jerusalem",
+    "note": "日本をはじめ、多くの国は首都と認めていない"
+   }
+  ],
+  "ITA": [
+   {
+    "ja": "ローマ",
+    "en": "Rome"
+   }
+  ],
+  "JAM": [
+   {
+    "ja": "キングストン",
+    "en": "Kingston"
+   }
+  ],
+  "JOR": [
+   {
+    "ja": "アンマン",
+    "en": "Amman"
+   }
+  ],
+  "JPN": [
+   {
+    "ja": "東京",
+    "en": "Tokyo"
+   }
+  ],
+  "KAZ": [
+   {
+    "ja": "アスタナ",
+    "en": "Nur-Sultan"
+   }
+  ],
+  "KEN": [
+   {
+    "ja": "ナイロビ",
+    "en": "Nairobi"
+   }
+  ],
+  "KGZ": [
+   {
+    "ja": "ビシュケク",
+    "en": "Bishkek"
+   }
+  ],
+  "KHM": [
+   {
+    "ja": "プノンペン",
+    "en": "Phnom Penh"
+   }
+  ],
+  "KIR": [
+   {
+    "ja": "タラワ",
+    "en": "Tarawa",
+    "lat": 1.338,
+    "lng": 173.018
+   }
+  ],
+  "KNA": [
+   {
+    "ja": "バセテール",
+    "en": "Basseterre"
+   }
+  ],
+  "KOR": [
+   {
+    "ja": "ソウル",
+    "en": "Seoul"
+   }
+  ],
+  "KOS": [
+   {
+    "ja": "プリシュティナ",
+    "en": "Pristina"
+   }
+  ],
+  "KWT": [
+   {
+    "ja": "クウェート",
+    "en": "Kuwait City"
+   }
+  ],
+  "LAO": [
+   {
+    "ja": "ビエンチャン",
+    "en": "Vientiane"
+   }
+  ],
+  "LBN": [
+   {
+    "ja": "ベイルート",
+    "en": "Beirut"
+   }
+  ],
+  "LBR": [
+   {
+    "ja": "モンロビア",
+    "en": "Monrovia"
+   }
+  ],
+  "LBY": [
+   {
+    "ja": "トリポリ",
+    "en": "Tripoli"
+   }
+  ],
+  "LCA": [
+   {
+    "ja": "カストリーズ",
+    "en": "Castries"
+   }
+  ],
+  "LIE": [
+   {
+    "ja": "ファドーツ",
+    "en": "Vaduz"
+   }
+  ],
+  "LKA": [
+   {
+    "ja": "スリジャヤワルダナプラコッテ",
+    "en": "Sri Jayawardenepura Kotte",
+    "lat": 6.9,
+    "lng": 79.95
+   }
+  ],
+  "LSO": [
+   {
+    "ja": "マセル",
+    "en": "Maseru"
+   }
+  ],
+  "LTU": [
+   {
+    "ja": "ビリニュス",
+    "en": "Vilnius"
+   }
+  ],
+  "LUX": [
+   {
+    "ja": "ルクセンブルク",
+    "en": "Luxembourg"
+   }
+  ],
+  "LVA": [
+   {
+    "ja": "リガ",
+    "en": "Riga"
+   }
+  ],
+  "MAR": [
+   {
+    "ja": "ラバト",
+    "en": "Rabat"
+   }
+  ],
+  "MCO": [
+   {
+    "ja": "モナコ",
+    "en": "Monaco"
+   }
+  ],
+  "MDA": [
+   {
+    "ja": "キシナウ",
+    "en": "Chișinău"
+   }
+  ],
+  "MDG": [
+   {
+    "ja": "アンタナナリボ",
+    "en": "Antananarivo"
+   }
+  ],
+  "MDV": [
+   {
+    "ja": "マレ",
+    "en": "Malé"
+   }
+  ],
+  "MEX": [
+   {
+    "ja": "メキシコシティ",
+    "en": "Mexico City"
+   }
+  ],
+  "MHL": [
+   {
+    "ja": "マジュロ",
+    "en": "Majuro"
+   }
+  ],
+  "MKD": [
+   {
+    "ja": "スコピエ",
+    "en": "Skopje"
+   }
+  ],
+  "MLI": [
+   {
+    "ja": "バマコ",
+    "en": "Bamako"
+   }
+  ],
+  "MLT": [
+   {
+    "ja": "バレッタ",
+    "en": "Valletta"
+   }
+  ],
+  "MMR": [
+   {
+    "ja": "ネーピードー",
+    "en": "Naypyidaw"
+   }
+  ],
+  "MNE": [
+   {
+    "ja": "ポドゴリツァ",
+    "en": "Podgorica"
+   }
+  ],
+  "MNG": [
+   {
+    "ja": "ウランバートル",
+    "en": "Ulaanbaatar"
+   }
+  ],
+  "MOZ": [
+   {
+    "ja": "マプト",
+    "en": "Maputo"
+   }
+  ],
+  "MRT": [
+   {
+    "ja": "ヌアクショット",
+    "en": "Nouakchott"
+   }
+  ],
+  "MUS": [
+   {
+    "ja": "ポートルイス",
+    "en": "Port Louis"
+   }
+  ],
+  "MWI": [
+   {
+    "ja": "リロングウェ",
+    "en": "Lilongwe"
+   }
+  ],
+  "MYS": [
+   {
+    "ja": "クアラルンプール",
+    "en": "Kuala Lumpur"
+   }
+  ],
+  "NAM": [
+   {
+    "ja": "ウィントフック",
+    "en": "Windhoek"
+   }
+  ],
+  "NER": [
+   {
+    "ja": "ニアメ",
+    "en": "Niamey"
+   }
+  ],
+  "NGA": [
+   {
+    "ja": "アブジャ",
+    "en": "Abuja"
+   }
+  ],
+  "NIC": [
+   {
+    "ja": "マナグア",
+    "en": "Managua"
+   }
+  ],
+  "NIU": [
+   {
+    "ja": "アロフィ",
+    "en": "Alofi",
+    "lat": -19.066,
+    "lng": -169.914
+   }
+  ],
+  "NLD": [
+   {
+    "ja": "アムステルダム",
+    "en": "Amsterdam"
+   }
+  ],
+  "NOR": [
+   {
+    "ja": "オスロ",
+    "en": "Oslo"
+   }
+  ],
+  "NPL": [
+   {
+    "ja": "カトマンズ",
+    "en": "Kathmandu"
+   }
+  ],
+  "NRU": [
+   {
+    "ja": "ヤレン",
+    "en": "Yaren",
+    "lat": -0.548,
+    "lng": 166.921
+   }
+  ],
+  "NZL": [
+   {
+    "ja": "ウェリントン",
+    "en": "Wellington"
+   }
+  ],
+  "OMN": [
+   {
+    "ja": "マスカット",
+    "en": "Muscat"
+   }
+  ],
+  "PAK": [
+   {
+    "ja": "イスラマバード",
+    "en": "Islamabad"
+   }
+  ],
+  "PAN": [
+   {
+    "ja": "パナマシティ",
+    "en": "Panama City"
+   }
+  ],
+  "PER": [
+   {
+    "ja": "リマ",
+    "en": "Lima"
+   }
+  ],
+  "PHL": [
+   {
+    "ja": "マニラ",
+    "en": "Manila"
+   }
+  ],
+  "PLW": [
+   {
+    "ja": "マルキョク",
+    "en": "Melekeok",
+    "lat": 7.487,
+    "lng": 134.627
+   }
+  ],
+  "PNG": [
+   {
+    "ja": "ポートモレスビー",
+    "en": "Port Moresby"
+   }
+  ],
+  "POL": [
+   {
+    "ja": "ワルシャワ",
+    "en": "Warsaw"
+   }
+  ],
+  "PRK": [
+   {
+    "ja": "ピョンヤン",
+    "en": "Pyongyang"
+   }
+  ],
+  "PRT": [
+   {
+    "ja": "リスボン",
+    "en": "Lisbon"
+   }
+  ],
+  "PRY": [
+   {
+    "ja": "アスンシオン",
+    "en": "Asunción"
+   }
+  ],
+  "QAT": [
+   {
+    "ja": "ドーハ",
+    "en": "Doha"
+   }
+  ],
+  "ROU": [
+   {
+    "ja": "ブカレスト",
+    "en": "Bucharest"
+   }
+  ],
+  "RUS": [
+   {
+    "ja": "モスクワ",
+    "en": "Moscow"
+   }
+  ],
+  "RWA": [
+   {
+    "ja": "キガリ",
+    "en": "Kigali"
+   }
+  ],
+  "SAU": [
+   {
+    "ja": "リヤド",
+    "en": "Riyadh"
+   }
+  ],
+  "SDN": [
+   {
+    "ja": "ハルツーム",
+    "en": "Khartoum"
+   }
+  ],
+  "SDS": [
+   {
+    "ja": "ジュバ",
+    "en": "Juba"
+   }
+  ],
+  "SEN": [
+   {
+    "ja": "ダカール",
+    "en": "Dakar"
+   }
+  ],
+  "SGP": [
+   {
+    "ja": "シンガポール",
+    "en": "Singapore"
+   }
+  ],
+  "SLB": [
+   {
+    "ja": "ホニアラ",
+    "en": "Honiara"
+   }
+  ],
+  "SLE": [
+   {
+    "ja": "フリータウン",
+    "en": "Freetown"
+   }
+  ],
+  "SLV": [
+   {
+    "ja": "サンサルバドル",
+    "en": "San Salvador"
+   }
+  ],
+  "SMR": [
+   {
+    "ja": "サンマリノ",
+    "en": "San Marino"
+   }
+  ],
+  "SOM": [
+   {
+    "ja": "モガディシュ",
+    "en": "Mogadishu"
+   }
+  ],
+  "SRB": [
+   {
+    "ja": "ベオグラード",
+    "en": "Belgrade"
+   }
+  ],
+  "STP": [
+   {
+    "ja": "サントメ",
+    "en": "São Tomé"
+   }
+  ],
+  "SUR": [
+   {
+    "ja": "パラマリボ",
+    "en": "Paramaribo"
+   }
+  ],
+  "SVK": [
+   {
+    "ja": "ブラチスラバ",
+    "en": "Bratislava"
+   }
+  ],
+  "SVN": [
+   {
+    "ja": "リュブリャナ",
+    "en": "Ljubljana"
+   }
+  ],
+  "SWE": [
+   {
+    "ja": "ストックホルム",
+    "en": "Stockholm"
+   }
+  ],
+  "SWZ": [
+   {
+    "ja": "ムババーネ",
+    "en": "Mbabane"
+   }
+  ],
+  "SYC": [
+   {
+    "ja": "ビクトリア",
+    "en": "Victoria"
+   }
+  ],
+  "SYR": [
+   {
+    "ja": "ダマスカス",
+    "en": "Damascus"
+   }
+  ],
+  "TCD": [
+   {
+    "ja": "ンジャメナ",
+    "en": "N'Djamena"
+   }
+  ],
+  "TGO": [
+   {
+    "ja": "ロメ",
+    "en": "Lomé"
+   }
+  ],
+  "THA": [
+   {
+    "ja": "バンコク",
+    "en": "Bangkok"
+   }
+  ],
+  "TJK": [
+   {
+    "ja": "ドゥシャンベ",
+    "en": "Dushanbe"
+   }
+  ],
+  "TKM": [
+   {
+    "ja": "アシガバット",
+    "en": "Ashgabat"
+   }
+  ],
+  "TLS": [
+   {
+    "ja": "ディリ",
+    "en": "Dili"
+   }
+  ],
+  "TON": [
+   {
+    "ja": "ヌクアロファ",
+    "en": "Nuku'alofa"
+   }
+  ],
+  "TTO": [
+   {
+    "ja": "ポートオブスペイン",
+    "en": "Port-of-Spain"
+   }
+  ],
+  "TUN": [
+   {
+    "ja": "チュニス",
+    "en": "Tunis"
+   }
+  ],
+  "TUR": [
+   {
+    "ja": "アンカラ",
+    "en": "Ankara"
+   }
+  ],
+  "TUV": [
+   {
+    "ja": "フナフティ",
+    "en": "Funafuti",
+    "lat": -8.517,
+    "lng": 179.217
+   }
+  ],
+  "TZA": [
+   {
+    "ja": "ダルエスサラーム",
+    "en": "Dar es Salaam"
+   },
+   {
+    "ja": "ドドマ",
+    "en": "Dodoma",
+    "lat": -6.183,
+    "lng": 35.75,
+    "note": "法律上の首都（国会が置かれている）。日本の教科書・地図帳はダルエスサラームを首都として扱う"
+   }
+  ],
+  "UGA": [
+   {
+    "ja": "カンパラ",
+    "en": "Kampala"
+   }
+  ],
+  "UKR": [
+   {
+    "ja": "キーウ",
+    "en": "Kyiv"
+   }
+  ],
+  "URY": [
+   {
+    "ja": "モンテビデオ",
+    "en": "Montevideo"
+   }
+  ],
+  "USA": [
+   {
+    "ja": "ワシントンD.C.",
+    "en": "Washington,  D.C."
+   }
+  ],
+  "UZB": [
+   {
+    "ja": "タシケント",
+    "en": "Tashkent"
+   }
+  ],
+  "VAT": [
+   {
+    "ja": "バチカン",
+    "en": "Vatican City"
+   }
+  ],
+  "VCT": [
+   {
+    "ja": "キングスタウン",
+    "en": "Kingstown"
+   }
+  ],
+  "VEN": [
+   {
+    "ja": "カラカス",
+    "en": "Caracas"
+   }
+  ],
+  "VNM": [
+   {
+    "ja": "ハノイ",
+    "en": "Hanoi"
+   }
+  ],
+  "VUT": [
+   {
+    "ja": "ポートビラ",
+    "en": "Port Vila"
+   }
+  ],
+  "WSM": [
+   {
+    "ja": "アピア",
+    "en": "Apia"
+   }
+  ],
+  "YEM": [
+   {
+    "ja": "サヌア",
+    "en": "Sanaa"
+   }
+  ],
+  "ZAF": [
+   {
+    "ja": "プレトリア",
+    "en": "Pretoria"
+   }
+  ],
+  "ZMB": [
+   {
+    "ja": "ルサカ",
+    "en": "Lusaka"
+   }
+  ],
+  "ZWE": [
+   {
+    "ja": "ハラレ",
+    "en": "Harare"
+   }
+  ]
+ },
+ "others": {
+  "TWN": [
+   {
+    "ja": "台北",
+    "en": "Taipei"
+   }
+  ]
+ }
+}

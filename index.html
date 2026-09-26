@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="国名・首都・人口・面積・地形を確かめながら学べる3D地球儀" />
+    <title>地理の地球儀</title>
+  </head>
+  <body>
+    <div id="globe" aria-label="3D地球儀。ドラッグで回転、ホイールやピンチで拡大縮小できます"></div>
+
+    <header class="toolbar">
+      <h1 class="title">地理の地球儀</h1>
+      <form id="search" class="search" role="search">
+        <input
+          id="search-input"
+          type="search"
+          list="country-list"
+          placeholder="国名で探す（例：ブラジル）"
+          autocomplete="off"
+          aria-label="国名で探す"
+        />
+        <datalist id="country-list"></datalist>
+      </form>
+      <label class="metric">
+        <span>主題図</span>
+        <select id="metric">
+          <option value="">なし（地形）</option>
+          <option value="population">人口</option>
+          <option value="area">面積</option>
+          <option value="density">人口密度</option>
+        </select>
+      </label>
+      <details class="layers">
+        <summary>表示</summary>
+        <fieldset>
+          <legend class="visually-hidden">表示する情報</legend>
+          <label><input type="checkbox" data-toggle="countries" checked /> 国名</label>
+          <label><input type="checkbox" data-toggle="capitals" checked /> 首都</label>
+          <label><input type="checkbox" data-toggle="physical" checked /> 山脈・山</label>
+          <label><input type="checkbox" data-toggle="rivers" checked /> 河川</label>
+          <label><input type="checkbox" data-toggle="geoLines" checked /> 赤道・回帰線・日付変更線</label>
+          <label><input type="checkbox" data-toggle="graticules" checked /> 経緯線（10°ごと）</label>
+        </fieldset>
+      </details>
+      <button id="home" type="button" class="button">全体を見る</button>
+    </header>
+
+    <aside id="info" class="panel info" hidden aria-live="polite"></aside>
+    <section id="legend" class="panel legend" hidden aria-label="主題図の凡例"></section>
+
+    <footer class="credits">
+      <details>
+        <summary>出典</summary>
+        <ul>
+          <li>国境・地形・都市・河川：<a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>（パブリックドメイン。国境は日本視点版）</li>
+          <li>人口・面積：<a href="https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators" target="_blank" rel="noopener">世界銀行 World Development Indicators</a>（CC BY 4.0）</li>
+          <li>国名の表記：<a href="https://www.stat.go.jp/data/sekai/0116.html" target="_blank" rel="noopener">総務省統計局『世界の統計2026』</a>に準拠</li>
+          <li>首都名：<a href="https://www.teikokushoin.co.jp/statistics/country/" target="_blank" rel="noopener">帝国書院 統計資料</a>に準拠（一部は各出典で補足）</li>
+          <li>河川名：日本語版Wikipediaの記事名</li>
+          <li>国旗：<a href="https://github.com/lipis/flag-icons" target="_blank" rel="noopener">flag-icons</a>（MIT）</li>
+          <li><a href="licenses.md" target="_blank" rel="noopener">使用しているライブラリのライセンス</a></li>
+        </ul>
+      </details>
+    </footer>
+
+    <div id="loading" class="loading" role="status">読み込み中…</div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

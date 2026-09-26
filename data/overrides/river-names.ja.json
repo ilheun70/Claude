@@ -1,0 +1,466 @@
+{
+  "_note": "Natural Earth 1:50m の河川には日本語名がないため、英語版Wikipediaの記事から日本語版記事への言語間リンク（記事名）を使った。キーはNatural Earthの name 属性。labelBbox はラベル位置をその範囲の区間に限定する（同名の別河川と区別するため）。",
+  "_retrieved": "2026-09-26",
+  "rivers": {
+    "Nile": {
+      "ja": "ナイル川",
+      "enwiki": "Nile"
+    },
+    "Amazonas": {
+      "ja": "アマゾン川",
+      "enwiki": "Amazon River"
+    },
+    "Mississippi": {
+      "ja": "ミシシッピ川",
+      "enwiki": "Mississippi River"
+    },
+    "Missouri": {
+      "ja": "ミズーリ川",
+      "enwiki": "Missouri River"
+    },
+    "Chang Jiang": {
+      "ja": "長江",
+      "enwiki": "Yangtze"
+    },
+    "Yangtze": {
+      "ja": "長江",
+      "enwiki": "Yangtze"
+    },
+    "Lena": {
+      "ja": "レナ川",
+      "enwiki": "Lena River"
+    },
+    "Ucayali": {
+      "ja": "ウカヤリ川",
+      "enwiki": "Ucayali River"
+    },
+    "El Bahr el Abyad": {
+      "ja": "白ナイル川",
+      "enwiki": "White Nile"
+    },
+    "Kagera": {
+      "ja": "カゲラ川",
+      "enwiki": "Kagera River"
+    },
+    "Angara": {
+      "ja": "アンガラ川",
+      "enwiki": "Angara"
+    },
+    "Ayeyarwady": {
+      "ja": "エーヤワディー川",
+      "enwiki": "Irrawaddy River"
+    },
+    "Brahmaputra": {
+      "ja": "ブラマプトラ川",
+      "enwiki": "Brahmaputra River"
+    },
+    "Congo": {
+      "ja": "コンゴ川",
+      "enwiki": "Congo River"
+    },
+    "Danube": {
+      "ja": "ドナウ川",
+      "enwiki": "Danube"
+    },
+    "Donau": {
+      "ja": "ドナウ川",
+      "enwiki": "Danube"
+    },
+    "Irtysh": {
+      "ja": "エルティシ川",
+      "enwiki": "Irtysh"
+    },
+    "Ertis": {
+      "ja": "エルティシ川",
+      "enwiki": "Irtysh"
+    },
+    "Ertix": {
+      "ja": "エルティシ川",
+      "enwiki": "Irtysh"
+    },
+    "Lancang": {
+      "ja": "メコン川",
+      "enwiki": "Mekong"
+    },
+    "Mekong": {
+      "ja": "メコン川",
+      "enwiki": "Mekong"
+    },
+    "Mackenzie": {
+      "ja": "マッケンジー川",
+      "enwiki": "Mackenzie River"
+    },
+    "Ob": {
+      "ja": "オビ川",
+      "enwiki": "Ob"
+    },
+    "Paraná": {
+      "ja": "パラナ川",
+      "enwiki": "Paraná River"
+    },
+    "Peace": {
+      "ja": "ピース川",
+      "enwiki": "Peace River"
+    },
+    "Selenge (Selenga)": {
+      "ja": "セレンガ川",
+      "enwiki": "Selenga"
+    },
+    "Slave": {
+      "ja": "スレーブ川",
+      "enwiki": "Slave River"
+    },
+    "St. Lawrence": {
+      "ja": "セントローレンス川",
+      "enwiki": "St. Lawrence River"
+    },
+    "Abay": {
+      "ja": "青ナイル川",
+      "enwiki": "Blue Nile"
+    },
+    "El Bahr el Azraq": {
+      "ja": "青ナイル川",
+      "enwiki": "Blue Nile"
+    },
+    "Al Furat": {
+      "ja": "ユーフラテス川",
+      "enwiki": "Euphrates"
+    },
+    "Firat": {
+      "ja": "ユーフラテス川",
+      "enwiki": "Euphrates"
+    },
+    "Euphrates": {
+      "ja": "ユーフラテス川",
+      "enwiki": "Euphrates"
+    },
+    "Amur": {
+      "ja": "アムール川",
+      "enwiki": "Amur"
+    },
+    "Heilong Jiang": {
+      "ja": "アムール川",
+      "enwiki": "Amur"
+    },
+    "Columbia": {
+      "ja": "コロンビア川",
+      "enwiki": "Columbia River"
+    },
+    "Darling": {
+      "ja": "ダーリング川",
+      "enwiki": "Darling River"
+    },
+    "Ganges": {
+      "ja": "ガンジス川",
+      "enwiki": "Ganges"
+    },
+    "Guaporé": {
+      "ja": "グアポレ川",
+      "enwiki": "Guaporé River"
+    },
+    "Huang": {
+      "ja": "黄河",
+      "enwiki": "Yellow River"
+    },
+    "Indus": {
+      "ja": "インダス川",
+      "enwiki": "Indus River"
+    },
+    "Kasai": {
+      "ja": "カサイ川",
+      "enwiki": "Kasai River"
+    },
+    "Madeira": {
+      "ja": "マデイラ川",
+      "enwiki": "Madeira River"
+    },
+    "Mamoré": {
+      "ja": "マモレ川",
+      "enwiki": "Mamoré River"
+    },
+    "Murray": {
+      "ja": "マレー川",
+      "enwiki": "Murray River"
+    },
+    "Negro": {
+      "ja": "ネグロ川",
+      "enwiki": "Rio Negro (Amazon)",
+      "labelBbox": [
+        -72,
+        -5,
+        -58,
+        5
+      ]
+    },
+    "Niagara": {
+      "ja": "ナイアガラ川",
+      "enwiki": "Niagara River"
+    },
+    "Niger": {
+      "ja": "ニジェール川",
+      "enwiki": "Niger River"
+    },
+    "Ohio": {
+      "ja": "オハイオ川",
+      "enwiki": "Ohio River"
+    },
+    "Orinoco": {
+      "ja": "オリノコ川",
+      "enwiki": "Orinoco"
+    },
+    "Shatt al Arab": {
+      "ja": "シャットゥルアラブ川",
+      "enwiki": "Shatt al-Arab"
+    },
+    "Shire": {
+      "ja": "シーレ川",
+      "enwiki": "Shire River"
+    },
+    "Ubangi": {
+      "ja": "ウバンギ川",
+      "enwiki": "Ubangi River"
+    },
+    "Volga": {
+      "ja": "ヴォルガ川",
+      "enwiki": "Volga"
+    },
+    "Yukon": {
+      "ja": "ユーコン川",
+      "enwiki": "Yukon River"
+    },
+    "Zambezi": {
+      "ja": "ザンベジ川",
+      "enwiki": "Zambezi"
+    },
+    "Aldan": {
+      "ja": "アルダン川",
+      "enwiki": "Aldan (river)"
+    },
+    "Araguaia": {
+      "ja": "アラグアイア川",
+      "enwiki": "Araguaia River"
+    },
+    "Arkansas": {
+      "ja": "アーカンザス川",
+      "enwiki": "Arkansas River"
+    },
+    "Benue": {
+      "ja": "ベヌエ川",
+      "enwiki": "Benue River"
+    },
+    "Bénoué": {
+      "ja": "ベヌエ川",
+      "enwiki": "Benue River"
+    },
+    "Dicle": {
+      "ja": "ティグリス川",
+      "enwiki": "Tigris"
+    },
+    "Tigris": {
+      "ja": "ティグリス川",
+      "enwiki": "Tigris"
+    },
+    "Dnepre": {
+      "ja": "ドニエプル川",
+      "enwiki": "Dnieper"
+    },
+    "Dnipro": {
+      "ja": "ドニエプル川",
+      "enwiki": "Dnieper"
+    },
+    "Kolyma": {
+      "ja": "コリマ川",
+      "enwiki": "Kolyma (river)"
+    },
+    "Magdalena": {
+      "ja": "マグダレナ川",
+      "enwiki": "Magdalena River"
+    },
+    "Oder": {
+      "ja": "オーデル川",
+      "enwiki": "Oder"
+    },
+    "Orange": {
+      "ja": "オレンジ川",
+      "enwiki": "Orange River"
+    },
+    "Pechora": {
+      "ja": "ペチョラ川",
+      "enwiki": "Pechora (river)"
+    },
+    "Rhein": {
+      "ja": "ライン川",
+      "enwiki": "Rhine"
+    },
+    "Rhin": {
+      "ja": "ライン川",
+      "enwiki": "Rhine"
+    },
+    "Rhine": {
+      "ja": "ライン川",
+      "enwiki": "Rhine"
+    },
+    "Rio Grande": {
+      "ja": "リオ・グランデ川",
+      "enwiki": "Rio Grande"
+    },
+    "Salween": {
+      "ja": "サルウィン川",
+      "enwiki": "Salween River"
+    },
+    "Saskatchewan": {
+      "ja": "サスカチュワン川",
+      "enwiki": "Saskatchewan River"
+    },
+    "Seine": {
+      "ja": "セーヌ川",
+      "enwiki": "Seine"
+    },
+    "Severnaya Dvina": {
+      "ja": "北ドヴィナ川",
+      "enwiki": "Northern Dvina"
+    },
+    "Snake": {
+      "ja": "スネーク川",
+      "enwiki": "Snake River"
+    },
+    "São  Francisco": {
+      "ja": "サン・フランシスコ川",
+      "enwiki": "São Francisco River"
+    },
+    "Sénégal": {
+      "ja": "セネガル川",
+      "enwiki": "Senegal River"
+    },
+    "Tocantins": {
+      "ja": "トカンチンス川",
+      "enwiki": "Tocantins River"
+    },
+    "Ural": {
+      "ja": "ウラル川",
+      "enwiki": "Ural (river)"
+    },
+    "Vaal": {
+      "ja": "バール川",
+      "enwiki": "Vaal River"
+    },
+    "Xi": {
+      "ja": "西江",
+      "enwiki": "Xi River"
+    },
+    "Yenisey": {
+      "ja": "エニセイ川",
+      "enwiki": "Yenisei"
+    },
+    "Amu  Darya": {
+      "ja": "アムダリヤ川",
+      "enwiki": "Amu Darya"
+    },
+    "Athabasca": {
+      "ja": "アサバスカ川",
+      "enwiki": "Athabasca River"
+    },
+    "Caquetá": {
+      "ja": "ジャプラ川",
+      "enwiki": "Japurá River"
+    },
+    "Japurá": {
+      "ja": "ジャプラ川",
+      "enwiki": "Japurá River"
+    },
+    "Colorado": {
+      "ja": "コロラド川",
+      "enwiki": "Colorado River",
+      "labelBbox": [
+        -120,
+        30,
+        -100,
+        43
+      ]
+    },
+    "Daugava": {
+      "ja": "ダウガヴァ川",
+      "enwiki": "Daugava"
+    },
+    "Ebro": {
+      "ja": "エブロ川",
+      "enwiki": "Ebro"
+    },
+    "Elbe": {
+      "ja": "エルベ川",
+      "enwiki": "Elbe"
+    },
+    "Fraser": {
+      "ja": "フレーザー川",
+      "enwiki": "Fraser River"
+    },
+    "Godävari": {
+      "ja": "ゴーダーヴァリ川",
+      "enwiki": "Godavari River"
+    },
+    "Indigirka": {
+      "ja": "インディギルカ川",
+      "enwiki": "Indigirka"
+    },
+    "Loire": {
+      "ja": "ロワール川",
+      "enwiki": "Loire"
+    },
+    "Marañón": {
+      "ja": "マラニョン川",
+      "enwiki": "Marañón River"
+    },
+    "Neva": {
+      "ja": "ネヴァ川",
+      "enwiki": "Neva"
+    },
+    "Lower Tunguska": {
+      "ja": "ニジニャヤ・ツングースカ川",
+      "enwiki": "Nizhnyaya Tunguska"
+    },
+    "Sacramento": {
+      "ja": "サクラメント川",
+      "enwiki": "Sacramento River"
+    },
+    "Syr Darya": {
+      "ja": "シルダリヤ川",
+      "enwiki": "Syr Darya"
+    },
+    "Tajo": {
+      "ja": "タホ川",
+      "enwiki": "Tagus"
+    },
+    "Tejo": {
+      "ja": "タホ川",
+      "enwiki": "Tagus"
+    },
+    "Tapajós": {
+      "ja": "タパジョース川",
+      "enwiki": "Tapajós"
+    },
+    "Tennessee": {
+      "ja": "テネシー川",
+      "enwiki": "Tennessee River"
+    },
+    "Tobol": {
+      "ja": "トボル川",
+      "enwiki": "Tobol"
+    },
+    "Usumacinta": {
+      "ja": "ウスマシンタ川",
+      "enwiki": "Usumacinta River"
+    },
+    "Vistula": {
+      "ja": "ヴィスワ川",
+      "enwiki": "Vistula"
+    },
+    "Volta": {
+      "ja": "ヴォルタ川",
+      "enwiki": "Volta River"
+    },
+    "Xingu": {
+      "ja": "シングー川",
+      "enwiki": "Xingu River"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "geo-globe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc",
+    "test": "vitest run",
+    "data": "node scripts/build-data.mjs",
+    "texture": "node scripts/build-texture.mjs"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/d3-scale": "^4.0.9",
+    "@types/d3-scale-chromatic": "^3.1.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^26.6.3",
+    "@types/three": "^0.186.0",
+    "mapshaper": "^0.7.68",
+    "sharp": "^0.35.4",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.2",
+    "yauzl": "^3.4.0"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.1.0",
+    "flag-icons": "^7.5.0",
+    "globe.gl": "^2.46.2",
+    "three": "^0.186.1"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}
