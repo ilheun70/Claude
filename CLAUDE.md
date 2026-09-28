@@ -7,7 +7,7 @@ A browser-based 3D globe for studying geography (Japanese UI, for adult learners
 ## Commands
 
 ```sh
-npm run dev          # http://localhost:5173/Claude/  (note the /Claude/ base path)
+npm run dev          # http://localhost:5173/
 npm test             # vitest: unit tests + checks on the generated files in public/data
 npx vitest run tests/format.test.ts     # one file
 npx vitest run -t "Crimea"              # tests matching a name
@@ -20,7 +20,7 @@ npm run texture      # regenerate public/textures/earth.jpg (downloads a ~100 MB
 
 Behind an HTTPS proxy, prefix the data/texture scripts with `NODE_USE_ENV_PROXY=1` (Node's fetch ignores HTTPS_PROXY otherwise).
 
-Generated files in `public/data/` and `public/textures/` are committed; CI (`.github/workflows/deploy.yml`, on push to `main`) only runs `npm test` and `npm run build`. After changing `scripts/build-data.mjs` or `data/overrides/`, rerun `npm run data` and `npm test`.
+Generated files in `public/data/` and `public/textures/` are committed; CI (`.github/workflows/deploy.yml`, on push to `main`) only runs `npm test` and `npm run build`. The site's base path is not hard-coded: the workflow passes `actions/configure-pages`' `base_path` output as `BASE_PATH`, which `vite.config.ts` uses (default `/`). Build runtime URLs from `import.meta.env.BASE_URL`, never a literal repository name. After changing `scripts/build-data.mjs` or `data/overrides/`, rerun `npm run data` and `npm test`.
 
 ## Architecture
 

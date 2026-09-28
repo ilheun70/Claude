@@ -34,7 +34,7 @@ Node.js 22.12 以上が必要です。
 
 ```sh
 npm install
-npm run dev        # 開発サーバー http://localhost:5173/Claude/
+npm run dev        # 開発サーバー http://localhost:5173/
 npm test           # 単体テストと生成データの検査
 npm run build      # 型チェックと本番ビルド（dist/）
 npm run preview    # ビルド結果の確認
@@ -51,7 +51,7 @@ npm run texture    # Natural Earth のラスターから地球の画像を作る
 
 ## 公開（GitHub Pages）
 
-`main` ブランチに push すると、`.github/workflows/deploy.yml` がテスト・ビルドをして GitHub Pages に公開します。初回だけ、リポジトリの **Settings → Pages → Build and deployment → Source** で **GitHub Actions** を選んでください。公開先は `https://<ユーザー名>.github.io/Claude/` です。
+`main` ブランチに push すると、`.github/workflows/deploy.yml` がテスト・ビルドをして GitHub Pages に公開します。初回だけ、リポジトリの **Settings → Pages → Build and deployment → Source** で **GitHub Actions** を選んでください。公開先は `https://<ユーザー名>.github.io/<リポジトリ名>/` です。公開時のパスはワークフローが GitHub Pages の設定から取得するため、リポジトリ名を変えてもコードの修正は要りません（変更後に一度、Actions から再公開してください）。
 
 ## データの出典
 

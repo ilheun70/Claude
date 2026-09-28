@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 
-// GitHub Pages serves this repository at https://<user>.github.io/Claude/
 export default defineConfig({
-  base: '/Claude/',
+  // The path the site is served under. The deploy workflow passes GitHub Pages' base
+  // path (e.g. "/geo-globe/"), so renaming the repository needs no code change.
+  base: process.env.BASE_PATH || '/',
   build: {
     // flag-icons' CSS references ~500 small SVGs; inlining them would put every flag
     // into the stylesheet. As files, a flag is fetched only when it is shown.
